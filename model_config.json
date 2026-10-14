@@ -1,0 +1,23 @@
+{
+  "name": "log_random_forest",
+  "lags": 12,
+  "rolling": true,
+  "log_target": true,
+  "params": {
+    "n_estimators": 200,
+    "min_samples_leaf": 3,
+    "max_depth": 16
+  },
+  "selection_months": [
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08"
+  ],
+  "audit_months": [
+    "2024-09",
+    "2024-10"
+  ],
+  "selection_metric": "pooled material-month MAE",
+  "best_overall_candidate": "log_random_forest"
+}

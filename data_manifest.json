@@ -1,0 +1,14 @@
+{
+  "source": "User-supplied desktop pyProject snapshot",
+  "publication_authorization": "User explicitly authorized public release of original data on 2026-10-14.",
+  "inputs": [
+    {
+      "file": "data/SO.csv.gz",
+      "original_name": "SO.csv",
+      "original_bytes": 47656600,
+      "original_sha256": "5cc806fed64941da08967992fc6a070e99a2386c7eee84105e9c8e05d1cfd23f",
+      "stored_bytes": 5176618,
+      "stored_sha256": "b027b35031886ef90aee964ed193ed4ea1e2733832bbf434f921a282cbe0abc5"
+    }
+  ]
+}
