@@ -1,0 +1,82 @@
+{
+  "note": "Legacy notebook outputs use different targets and cohorts and are not used for model ranking. Original source files were not modified. Historical as-of date 2024-11-04 was fixed for repeatability. All runtime adaptations were made in work copies.",
+  "runs": [
+    {
+      "file": "ORF_Time_Series-1102.ipynb",
+      "status": "passed",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "RMSE API compatibility",
+        "single-worker learning curve",
+        "disabled Excel viewer and GUI plotting"
+      ],
+      "Training_DATA": {
+        "rows": 508,
+        "columns": 17
+      },
+      "Predicting_DATA": {
+        "rows": 43,
+        "columns": 17
+      },
+      "Sorted_DATA": {
+        "rows": 1890,
+        "columns": 12
+      },
+      "Predicted_DATA": {
+        "rows": 43,
+        "columns": 17
+      },
+      "seconds": 11.57
+    },
+    {
+      "file": "RF_Cross_Section-1031.ipynb",
+      "status": "passed",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "RMSE API compatibility",
+        "single-worker learning curve",
+        "disabled Excel viewer and GUI plotting"
+      ],
+      "X": {
+        "rows": 141,
+        "columns": 76
+      },
+      "Sorted_DATA": {
+        "rows": 1833,
+        "columns": 23
+      },
+      "Cross_Section_DATA": {
+        "rows": 141,
+        "columns": 78
+      },
+      "legacy_rmse": 9414.35401593245,
+      "target_sum": 2368136.0,
+      "seconds": 5.19
+    },
+    {
+      "file": "RF_Nearby2-1101.ipynb",
+      "status": "passed",
+      "adaptations": [
+        "fixed historical as-of date 2024-11-04",
+        "RMSE API compatibility",
+        "single-worker learning curve",
+        "disabled Excel viewer and GUI plotting"
+      ],
+      "X": {
+        "rows": 49,
+        "columns": 7
+      },
+      "Sorted_DATA": {
+        "rows": 414,
+        "columns": 8
+      },
+      "Cross_Section_DATA": {
+        "rows": 49,
+        "columns": 15
+      },
+      "legacy_rmse": 255.90865137562054,
+      "target_sum": 75446.0,
+      "seconds": 4.56
+    }
+  ]
+}

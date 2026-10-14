@@ -1,0 +1,32 @@
+{
+  "selected_model": "log_random_forest",
+  "selection_months": [
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08"
+  ],
+  "audit_months": [
+    "2024-09",
+    "2024-10"
+  ],
+  "audit_metrics": {
+    "rows": 783,
+    "mae": 1684.272006354736,
+    "rmse": 11364.527691905858,
+    "wape": 0.5666366248626716,
+    "actual_total": 2327391.0,
+    "predicted_total": 1376445.3730421895
+  },
+  "forecast_month": "2024-11",
+  "forecast_materials": 392,
+  "input": {
+    "source_rows": 153679,
+    "exact_duplicate_rows_removed": 0,
+    "usable_rows": 153679,
+    "materials": 392,
+    "first_month": "2022-01",
+    "last_observed_month": "2024-10",
+    "zero_month_policy": "No observed positive order within a covered month is treated as zero, only after first appearance."
+  }
+}
